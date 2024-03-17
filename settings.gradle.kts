@@ -13,4 +13,5 @@ plugins {
 rootProject.name = "EDClite"
 include("app")
 
-include("boot")
+include("core:common:boot")
+include("spi:common:core-spi")
